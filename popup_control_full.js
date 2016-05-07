@@ -117,7 +117,7 @@ $(window).load(function() {
 			$(divpopup).attr('id', 'myModal');
 			$(divpopup).attr('class', 'linhnguyen-modal');
 			$( "body" ).append(divpopup);
-			$("#myModal").html("<a href='http://www.visapm.com/visa-thuy-si.html' target='_blank'><img src='http://www.visapm.com/images/upload/website-1/visa-cac-nuoc/visa-thuy-si-du-lich.jpg" hspace="5" border="0" vspace="5"/a></h2>");
+			$("#myModal").html("<a href='http://www.visapm.com/visa-thuy-si.html' target='_blank'><img src='http://www.visapm.com/images/upload/website-1/visa-cac-nuoc/visa-thuy-si-du-lich.jpg' hspace="5" border="0" vspace="5"/a></h2>");
 			$('#myModal').linhnguyen($('#myModal').data());
 		}
 });
